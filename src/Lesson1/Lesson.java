@@ -19,7 +19,7 @@ public class Lesson {
 
         System.out.println(repeated);
 
-        double growth = 185;
+        double growth = 1.85;
         double growthCount = growth * growth;
         double weight = 90;
         double indexWeight = weight / growthCount;
@@ -39,7 +39,7 @@ public class Lesson {
         System.out.println(myArray);
 
         char[] myArray2 = myArray;
-        myArray[4] = 'h';
+        myArray[3] = 'h';
         System.out.println(myArray2);
     }
 }
