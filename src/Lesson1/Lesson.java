@@ -1,10 +1,9 @@
 package Lesson1;
 
 import java.util.Arrays;
-import java.util.Locale;
 
 public class Lesson {
-    public static void main(String[] args) {
+    public static void LessonNew() {
 
         String hi = "                Hello ";
         String world = " WoRld!";
