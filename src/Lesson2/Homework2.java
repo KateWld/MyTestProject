@@ -33,7 +33,7 @@ public class Homework2 {
         boolean sausage = true;
         boolean eggs = true;
 
-        if (chicken == true && vegetables == true && sour == true && toast == true){
+        if (chicken && vegetables == true && sour == true && toast == true){
             System.out.println("Цезарь готов, сэр!");
         }
         if (vegetables == true && sausage == true || eggs == true ) {
