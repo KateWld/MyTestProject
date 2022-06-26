@@ -18,7 +18,7 @@ Car toyota = new Toyota(true,true);
         BufferedReader reader = new BufferedReader(new FileReader("D:\\Job\\repos\\MyTestProject\\comesFolder\\my_first_file.txt"));
         String result = "";
         while (reader.ready()){
-            result += reader.readLine();
+            result += reader.readLine() + " ";
 
         }
         System.out.println(result + " ");
